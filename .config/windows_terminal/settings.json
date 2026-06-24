@@ -1,0 +1,96 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        }
+    ],
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "defaultProfile": "{c8f417d3-1602-569e-9e64-2ff18c991960}",
+    "keybindings": 
+    [
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "elevate": true,
+            "font": 
+            {
+                "face": "JetBrainsMono Nerd Font",
+                "size": 12
+            },
+            "opacity": 90,
+            "padding": "8",
+            "scrollbarState": "hidden",
+            "useAcrylic": false
+        },
+        "list": 
+        [
+            {
+                "colorScheme": "Tango Dark",
+                "commandline": "C:\\WINDOWS\\system32\\wsl.exe --distribution-id {28059cb2-7407-4adf-926a-57c6ccd313e9} --cd ~",
+                "cursorShape": "bar",
+                "font": 
+                {
+                    "size": 14
+                },
+                "guid": "{c8f417d3-1602-569e-9e64-2ff18c991960}",
+                "hidden": false,
+                "name": "WSL",
+                "source": "Microsoft.WSL",
+                "startingDirectory": null
+            }
+        ]
+    },
+    "schemes": [],
+    "themes": [],
+    "windowingBehavior": "useAnyExisting"
+}
